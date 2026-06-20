@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Large/regenerable model binary (rebuild with `python train.py`)
+reports/model.joblib
+
+# We DO commit the report figures, metrics.json and worst_predictions.csv so the
+# results are viewable on GitHub without running anything.
