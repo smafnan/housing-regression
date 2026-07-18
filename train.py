@@ -23,7 +23,7 @@ from pathlib import Path
 import joblib
 import numpy as np
 
-from src.housing import (
+from housing import (
     build_models,
     cross_validate_models,
     error_analysis,
